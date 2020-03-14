@@ -28,11 +28,11 @@ class CalcTest(unittest.TestCase):
 
     def test_num1_none(self):
         """Негативный, отсутствие x"""
-        self.assertEqual(calc_me(None, 2,"/"), 'ERROR: send me Number 1')
+        self.assertEqual(calc_me(None, 2,"/"), 'ERROR: send me Number1')
 
     def test_num2_none(self):
         """Негативный, отсутствие y"""
-        self.assertEqual(calc_me(4, None,"/"), 'ERROR: send me Number 2')
+        self.assertEqual(calc_me(4, None,"/"), 'ERROR: send me Number2')
 
     def test_simb(self):
         """Негативный, ввод символьных значений"""
