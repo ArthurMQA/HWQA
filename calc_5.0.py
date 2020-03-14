@@ -1,5 +1,5 @@
 '''
-Calcultor v. 0.4
+Calcultor v. 0.5
 '''
 
 def input_number():
@@ -27,10 +27,10 @@ def input_oper():
 def calc_me(x=None,y=None, oper=None):
     # если x не присвоили значение - возвращаем ошибку
     if x is None:
-        return "ERROR: send me Number 1"
+        return "ERROR: send me Number1"
     # если y не присвоили значение - возвращаем ошибку
     if y is None:
-        return "ERROR: send me Number 2"
+        return "ERROR: send me Number2"
     # если x или y  не входит в типы int, float - возвращаем ошибку
     if (not isinstance(x, (int, float))) or (not isinstance(y, (int, float))):
         return "ERROR: now it is does not supported"
